@@ -1,0 +1,6 @@
+on: push
+jobs:
+  ssh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: valeriangalliat/action-sshd-cloudflared@v1
